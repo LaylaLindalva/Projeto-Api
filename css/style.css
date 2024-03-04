@@ -1,0 +1,48 @@
+:root{
+    --rosa: #FFD0CC;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.inicio{
+    background-color: var(--rosa);
+    height: 20px;
+}
+
+.nav-bar{
+    background-image: url('../image/marmori.png');
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.buscar{
+    align-items: center;
+    display: flex; 
+}
+
+.busque{
+    border-radius: 10px;
+    padding: 2px;
+    width: 400px;
+    text-align: center;
+}
+
+.login{
+    text-align: center;
+    margin-right: 0;
+}
+
+main{
+    background-image: url('../image/maquiagem.png');
+    padding: 10px;
+}
+
