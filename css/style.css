@@ -13,7 +13,7 @@
 }
 
 .nav-bar{
-    background-image: url('../image/marmori.png');
+    background-color: black;
     display: flex;
     justify-content: space-between;
 }
@@ -52,18 +52,21 @@ header{
 .login{
     text-align: center;
     font-family: "Inter", sans-serif;
-    color: black;
+    color: #FFF;
     text-decoration: none;
 
 }
 
 .opcoes{
     display: flex;
+    border-radius: 10px;
+    color: #FFF;
     
 }
 
 .imagem-principal{
     padding: 20px 0px;
+    justify-content: center;
 }
 
 .sombra{
@@ -72,8 +75,8 @@ header{
 
 .info{
     display: flex;
-    background-image: url('../image/marmori.png');
-    justify-content: center;
+    flex-direction: column;
+
 }
 
 .presente{
