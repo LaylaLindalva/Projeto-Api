@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -12,40 +12,58 @@
         <div class="inicio"></div>
         <nav class="navbar">
             <div class="nav-bar">
+                <div class="nav-login">   
                 <ul>
-                    <li><img src="./image/perfil.png" alt="" class="perfil"></li>
-                    <li><a href="#" class="login">Login</a></li>
+                    <li><img src="./image/perfil.png" alt="" class="perfil" width="50px" height="50px"></li>
+                    <li><a href="./page/login.html" class="login">Login</a></li>
                 </ul>
+            </div>
             <div class="buscar">
                 <input type="text" class="busque" placeholder="Busque aqui seu produto">
                 <img src="./image/icone-loupe-noir 1.png" alt="lupa">
             </div> 
             
-            <button><img class="botao" src="./image/botão.png" alt="botão"></button>
+            <button class="botao"><img class="botao" src="./image/botão.png" alt="botão"></button>
             
+        
+    </div>
         <div class="info">
             <section>
                 <ul class="info">
-                    <li class="make"><a href="#">MAQUIAGEM</a></li>
-                    <li class="presente"><a href="#">PRESENTES</a></li>
-                    <li><a href="#">BLOG</a></li>
+                    <li class="nav-infor"><a class="nav-link" href="#">MAQUIAGEM</a></li>
+                    <li class="nav-infor"><a class="nav-link" href="#">PRESENTES</a></li>
+                    <li class="nav-infor"><a class="nav-link" href="#">BLOG</a></li>
+                    <li class="nav-infor"><a class="nav-link" href="#">CONTATO</a></li>
                 </ul>
             </section>
         </div>
-    </div>
-   
     </nav>
     </header>
-    <div class="redes-sociais">
+        <div class="imagem-principal">
+            <div class="imagens-principais">
+            <div>
+            <img src="./image/imagem-pinceis.png" alt="pinceis">   
+            <img class="piguimento" src="./image/imagem-piguimento.png" alt="piguimento">
+            </div>
+            <div class="imagem-boca">
+            <img class="boca" src="./image/imagem-boca.png" alt="boca">
+            </div>
+        </div>
+            
+            <div>
+            <img src="./image/imagem-esmalte.png" alt="esmalte">
+            <img class="paleta-1" src="./image/imagem-paleta.png" alt="paleta">
+            </div>
+        </div>
+        <div class="redes-sociais">
                 <a href="https://www.instagram.com/accounts/login/"><img src="./image/instagram_logo_thin_icon_171701 1.png" alt="instagram"></a>
                 <a href="https://www.facebook.com/?locale=pt_BR"><img src="./image/free-facebook-icon-2869-thumb 1.png" alt="facebook"></a>
             </div>  
-
     <main class="main">
-        <div class="imagem-principal"><img src="./image/maquiagem.png" alt="maquiagens" width="1390" height="672"></div>
-        <div class="opcoes" width="1310px">
+        
+        <div class="opcoes">
         <section>
-            <a href="Sombra"><img class="sombra" src="./image/sombra.png" alt="sombra"></a>
+            <a href="#"><img class="sombra" src="./image/sombra.png" alt="sombra" ></a>
         </section>
 
         <section>
@@ -64,6 +82,10 @@
             <a href="#"><img src="./image/esmalte.png" alt="esmalte"></a>
         </section>
     </div>
+
+    <section>
+        <video src="./video/AULA de AUTOMAQUIAGEM para INICIANTES (Gabi Ferreira Make).mp4"></video>
+    </section>
     </main>
 
     <script src="./js/script.js"></script>

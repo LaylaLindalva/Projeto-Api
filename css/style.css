@@ -8,14 +8,14 @@
 }
 
 .inicio{
-    background-color: var(--rosa);
+    background-color: black;
     height: 20px;
 }
 
 .nav-bar{
-    background-color: black;
+    background-color: var(--rosa);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav-bar ul{
@@ -25,7 +25,8 @@
 
 
 .perfil{
-    border-radius: 30px;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 header{
@@ -42,11 +43,12 @@ header{
 .busque{
     border-radius: 5px;
     padding: 2px;
-    width: 400px;
+    width: 100%;
 }
 
 .botao{
-    border-radius: 0px;
+    background-color: var(--rosa);
+    border: #FFD0CC;
 }
 
 .login{
@@ -54,31 +56,83 @@ header{
     font-family: "Inter", sans-serif;
     color: #FFF;
     text-decoration: none;
-
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 1.15rem;
 }
 
 .opcoes{
     display: flex;
     border-radius: 10px;
     color: #FFF;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .imagem-principal{
-    padding: 20px 0px;
+    display: flex;
+    padding: 10px;
+    width: 100%;
     justify-content: center;
+    align-items: center;
 }
 
-.sombra{
-    padding: 10px;
+.imagens-principais{
+    display: flex;
+}
+
+.boca{
+    padding: 0px 13px;
+}
+
+.piguimento{
+    padding: 12px 0px;
+}
+
+.paleta-1{
+    padding: 12px 0px;
+}
+
+.maquiagens{
+    display: flex;
+    padding: 20px;
+}
+
+section img{
+    width: 200px;
+    height: 204px;
 }
 
 .info{
     display: flex;
-    flex-direction: column;
+    background-color: var(--rosa);
+    align-items: center;
+    justify-content: space-around;
+}
 
+.info ul{
+    display: flex;
+    list-style: none; 
+    justify-content: center;
 }
 
 .presente{
     padding: 0px 50px;
+}
+
+.nav-login li{
+    display: flex;
+}
+
+.nav-infor{
+    margin: 0px 15px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.15rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
 }
